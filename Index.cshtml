@@ -1,0 +1,378 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<html>
+<head>
+
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+    <script src="~/Content/js/bootstrap.bundle.js"></script>
+    <style>
+        /* .header {
+            min-height: 50px;
+            background: #ebedec;
+        }*/
+        /*
+        .menu {
+            min-height: 50px;
+            background: black;
+        }
+
+            .menu ul li a {
+                font-weight: bold;
+                color: white;
+            }
+
+                .menu ul li a:hover {
+                    color: green;
+                }*/
+
+        .slider {
+            min-height: 400px;
+        }
+
+        .fintech {
+            min-height: 130px;
+        }
+
+        .ff {
+            font-size: 40px;
+        }
+
+        .keyarea {
+            min-height: 350px;
+        }
+
+        .ab {
+            min-height: 300px;
+        }
+
+        .in {
+            min-height: 40px;
+            width: 80%;
+            background: white;
+            margin: 15px auto;
+            border-radius: 5px;
+            border: 1px solid lightgrey;
+            padding-left: 10px;
+            padding-top: 5px;
+        }
+
+            .in:hover {
+                transform: scale(1.01);
+                box-shadow: 0px 0px 3px lightgreen;
+                transition: all .5s;
+            }
+
+        .advantagefintechnology {
+            min-height: 120px;
+        }
+
+        .Benefit {
+            min-height: 350px;
+        }
+
+        .bb {
+            min-height: 300px;
+        }
+
+        .consumer {
+            min-height: 50px;
+            width: 70%;
+            font-size: 22px;
+            margin: 10px auto;
+            border-radius: 100px;
+            padding-left: 0px;
+            padding-top: 0px;
+        }
+
+            .consumer:hover {
+                transform: scale(1.01);
+                box-shadow: 0px 0px 3px lightgreen;
+                transition: all .5s;
+            }
+
+        .num {
+            min-height: 40px;
+            width: 40px;
+            border-radius: 100px;
+            background: white;
+            text-align: center;
+            font-size: 22px;
+            font-weight: bold;
+            float: left;
+            margin: 5px;
+        }
+
+        .listfintech {
+            min-height: 50px;
+        }
+
+        .listfintech1 {
+            min-height: 300px;
+        }
+
+        .listfintech2 {
+            min-height: 100px;
+        }
+
+        .P2P {
+            min-height: 300px;
+        }
+
+        .creditcard {
+            min-height: 300px;
+        }
+
+        .creditcard1 {
+            min-height: 50px;
+        }
+
+        .p1 {
+            min-height: 50px;
+        }
+
+        .paymentgateway {
+            min-height: 500px;
+            /*  background: url('~/Content/images/p.png');*/
+        }
+
+        .paymentgateway1 {
+            min-height: 50px;
+        }
+
+        .footer {
+            min-height: 100px;
+        }
+
+        .ic1 {
+            min-height: 30px;
+            width: 30px;
+            color: white;
+            float: left;
+            margin: 4px;
+            box-sizing: border-box;
+            margin-top: 10px;
+            padding-top: 7px;
+            padding-left: 7px;
+            border-radius: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="container-fluid">
+
+        @*<div class="row header">
+                <div class="col-sm-6"></div>
+                <div class="col-sm-1"><img src="~/Content/images/logo.png" height="100px" width="100%" /></div>
+                <div class="col-sm-5"></div>
+            </div>*@
+        <!---------------------------- start menu---------->
+        <!--<div class="row menu">
+        <div class="col-sm-12">
+            <nav class="navbar navbar-expand-lg m-0 p-0">
+                <div class="container-fluid">-->
+        <!-- <a class="navbar-brand" href="#">Navbar</a> --->
+        <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">ABOUT US</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">FINTECH</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">BLOCKCHAIN</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">CYBER SECURITY</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">TECHNOLOGY</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">CONTACT US</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+        </div>-->
+        <!---------------------------- end menu---------->
+        <!---------------------------start slider-------------------->
+
+        <div class="row slider">
+            <div class="col-sm-12 p-0">
+                <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="~/Content/images/fintech.png" height="400px" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="~/Content/finlogy/finlogy/image(6).png" height="400px" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="~/Content/finlogy/finlogy/image(10).png" height="400px" class="d-block w-100" alt="...">
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!---------------------------end slider-------------------->
+        <!---------------------------start fintech-------------------->
+        <div class="row fintech">
+            <div class="col-sm-12 bg light">
+                <div class="text-dark text-center ff"><span style="border-bottom: 1px solid green; color: #2ab391;"><b>FINTECHNOLGY</b></span> <b>DEFINITION</b></div>
+                Contrary to popular belief, Lorem Ipsum is not simply random text. <b>It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</b> <b><i>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,</i></b> looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word infrom a Lorem Ipsum passage, and going through the cites of the word infrom a Lorem Ipsum passage, and going through the cites of the word in
+            </div>
+        </div>
+        <!---------------------------end fintech-------------------->
+        <!---------------------------start key area-------------------->
+        <div class="row keyarea">
+            <div class="col-sm-12 bg light">
+                <div class="text-dark text-center ff"><span><b>KEY AREA </b></span><span style="border-bottom: 1px solid green; color: #2ab391;"><b>FINTECH</b></span></div>
+                <div class="row ab">
+                    <div class="col-sm-4">
+                        <div class="in"><a href="#" style="text-decoration:none;color:black;">Financial Data Analysis</a></div>
+                        <div class="in"><a href="#" style="text-decoration:none;color:black;">Blockchain and Decentralized Ledgers</a></div>
+                        <div class="in"><a href="#" style="text-decoration:none;color:black;">payments and Transactions</a></div>
+                        <div class="in"><a href="#" style="text-decoration:none;color:black;">E-commerce and Online markerting</a></div>
+                        <div class="in"><a href="#" style="text-decoration:none;color:black;">Cryptocurrency and Blockchain</a></div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="in"><a href="#" style="text-decoration:none;color:black;">Digital Wallets</a></div>
+                        <div class="in"><a href="#" style="text-decoration:none;color:black;">payment Processing</a></div>
+                        <div class="in"><a href="#" style="text-decoration:none;color:black;">Insurance and Ricks management</a></div>
+                        <div class="in"><a href="#" style="text-decoration:none;color:black;">Telecommunication and Telemedicine</a></div>
+                        <div class="in"><a href="#" style="text-decoration:none;color:black;">Cybersecurity and Digital Forensics</a></div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="in"><a href="#" style="text-decoration:none;color:black;">Artificial Intelligence and machine Learning</a></div>
+                        <div class="in"><a href="#" style="text-decoration:none;color:black;">Consumer Electronics and Iot</a></div>
+                        <div class="in"><a href="#" style="text-decoration:none;color:black;">Banking and Landing</a></div>
+                        <div class="in"><a href="#" style="text-decoration:none;color:black;">Sustainability and Environmental Conservation</a></div>
+                        <div class="in"><a href="#" style="text-decoration:none;color:black;">Consumer Protection and Regulation</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------------------------end key area-------------------->
+        <!---------------------------start Advantage fintechnology-------------------->
+        <div class="row advantagefintechnology">
+            <div class="col-sm-12 bg light">
+                <div class="text-dark text-center ff"><span style="border-bottom: 1px solid green; color: #2ab391;"><b>ADVANTAGE OF</b></span> <span><b> FINTECHNOLOGY</b></span></div>
+                from a Lorem Ipsum passage, and going through the cites of the word infrom a Lorem Ipsum passage, and going through the cites of the word infrom a Lorem Ipsum passage, and going through the cites of the word infrom a Lorem Ipsum passage, and going through the cites of the word infrom a Lorem Ipsum passage, and going through the cites of the word infrom a Lorem Ipsum passage,
+            </div>
+        </div>
+        <!---------------------------end Advantage fintechnology-------------------->
+        <!---------------------------start Benefit fintech-------------------->
+        <div class="row Benefit">
+            <div class="col-sm-12 bg light">
+                <div class="text-dark text-center ff"><span>The Benefit of Fintech for Consumers and Businessess</span></div>
+                <div class="row bb">
+                    <div class="col-sm-6 mx-auto ">
+                        <div class="consumer bg-danger">
+                            <span>Increased Accessibillity</span>
+                            <div class="num text-danger"><span>1</span></div>
+                        </div>
+
+                        <div class="consumer bg-warning">
+                            <span>Cost Saving</span>
+                            <div class="num text-warning"><span>2</span></div>
+                        </div>
+
+                        <div class="consumer bg-success">
+                            <span>Improved Efficiency</span>
+                            <div class="num text-success"><span>3</span></div>
+                        </div>
+
+                        <div class="consumer bg-info">
+                            <span>Enhanced Security</span>
+                            <div class="num text-info"><span>4</span></div>
+                        </div>
+
+                        <div class="consumer bg-primary">
+                            <span stle="background:magenta;">Greater flexibilty</span>
+                            <div class="num text-primary"><span stle="color:magenta;">5</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------------------------end Benefit fintech-------------------->
+        <!---------------------------start list of fintech-------------------->
+        <div class="row listfintech"><div class="col-sm-12 bg light"><div class="text-dark text-center ff"><span style="border-bottom: 1px solid green; color: #2ab391;"><b>LATEST IN</b></span> <span><b>FINTECH</b></span></div></div></div>
+        <div class="row listfintech1">
+            <div class="col-sm-8 mx-auto p-0">
+                <img src="~/Content/images/8.png" height="300px" width="100%" />
+            </div>
+        </div>
+        <div class="row listfintech2">
+            <div class="col-sm-12	">
+                <div class="text-dark text-center"><h3>UAE Revollution Finance with Digital KYC Platform</h3><span> The United Arab Emirates(UAE)has taken a significant step toward modernizing its financial ecosystem with the lunch of adigital Know Your Customer(KYC)platform under Federal Decree-Law No.30 of 2024.This cutting-edge initiativeis designed to streamline identity verification processes,<br /><br />enhance data security,and strenghten measures to combat financial crime.Regulated by the Central Bank of the UAE and overseen by a newly established entity,the platform is set to redefine how businesses and financial institution manage customer data and meet compliance requirements.</span></div>
+            </div>
+        </div>
+        <!---------------------------end list of fintech-------------------->
+        <!--------------------------start P2P---------------------------------------->
+        <div class="row P2P">
+            <div class="col-sm-8 mx-auto p-0"><img src="~/Content/images/p2p.png" height="300px" width="100%" /></div>
+        </div>
+        <div class="row P2P1"><div class="col-sm-12 text-dark text-center"><h3>How to Start Peer-to-Peer Lending as a New inverstor</h3><span>Are you interested in starting peer-to-peer lending as a new investor?This modern investment form allow individuals to lend money directly to other avoiding traditional financial institutions. it also provides possible attractive returns. In this blog post,we'll look at what you need to know to confidently engage with peer-to-peer lending while understanding its machanics,benefits,and risks.<br /><br />You will learn peer-to-peer lending platforms function,what benefit they have compared to traditional investments,plus the main strategies to boost your returns.If youwant to divesify your investment portfolio or seek fixed income options,this guide can help you make smart choices as you being peer-to-peer lending experience with the right knowledge and approach,it is possible to take advantage of thisthrilling investment option and be part of agrowing group of smart lender. </span></div></div>
+        <!--------------------------end P2P---------------------------------------->
+        <!--------------------------start credit card---------------------------------------->
+        <div class="row creditcard">
+            <div class="col-sm-8 mx-auto p-0"><img src="~/Content/images/credit.png" height="300px" width="100%" /></div>
+        </div>
+        <div class="row creditcard1"><div class="col-sm-12 text-dark text-center"><h3>Behind the Scene- How do Credit Card Work </h3><span>You must have wonderd how exactly the payments are processed when you swip debit/credit cards at the retail store for payment or submit your credit card details during the checkout process online. In this post,we'll share the complete process or what happens after your credit card.</span></div></div>
+        <!--------------------------end credit card---------------------------------------->
+        <!------------------------ start payment Gateway--------------------------------------------------------->
+        <div class="row p1"><div class="col-sm-12"><div class="text-center text-secondary ff"><b>PAYMENT GATEWAY FOR ONLINE<br /> STORE</b></div></div></div>
+        <div class="row paymentgateway">
+            <div class="col-sm-8 mx-auto p-0 bg-info"><img src="/Content/images/p.png" height="500" width="100%" /></div>
+        </div>
+        <div class="row paymentgateway1">
+            <div class="col-sm-12 bg light"><div class="text-dark text-center"><span><b>The Rise of Contectless Payment-How Fintech is Revolutionizing Transactions</b><br />Inrecent years,the world of payment has undergone a transformative journey,with contactless payments emerging in the realm of financial transactions.<br />This article explores the evolution,impact,and future trends of contactless payments,analyzing their rise even before the COVID-19 pandemic,their current significance,and the potential they hold for shaping the future of consumer behavior.</span></div></div>
+        </div>
+        <!------------------------ end payment Gateway----------------------------------------------------------->
+        <!---------------------------------- start footer----------------------------------------------------->
+        @*<div class="row footer bg-dark text-center text-light">
+                <div class="col-sm-4 "><h3><a href="#" style="text-decoration:none;color:white;">About Us</a></h3><br /><span>Welcome to our website! we're here to provide best services and products to meet your needs.Thank you for visiting!</span></div>
+                <div class="col-sm-4 "><h3><a href="#" style="text-decoration:none;color:white;">Quick Links</a></h3><br />AboutServicesContactPrivacy Policy</div>
+                <div class="col-sm-4">
+                    <h3><a href="#" style="text-decoration:none;color:white;">Follow Us</a></h3><br />
+                    <div class="ic1 ps-5"><a href="#" style="text-decoration:none;color:white;"><i class="fa-brands fa-twitter"></i></a></div>
+                    <div class="ic1 ps-5"><a href="#" style="text-decoration:none;color:white;"><i class="fa-brands fa-facebook-f"></i></a></div>
+                    <div class="ic1 ps-5"><a href="#" style="text-decoration:none;color:white;"><i class="fa-brands fa-instagram"></i></a></div>
+                    <div class="ic1 ps-5"><a href="https://Google.com" style="text-decoration:none;color:white;"><i class="fa-brands fa-linkedIn"></i></a></div>
+                </div>
+            </div>*@
+        <!---------------------------------- end footer------------------------------------------------------->
+    </div>
+    
+</body>
+    
+</html>
